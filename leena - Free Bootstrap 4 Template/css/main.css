@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display+SC:400,400i,700,900|Roboto:300,400,500,900,900i");
+body {
+  background-color: #fff;
+  font-size: 15px;
+  color: #c3c3c3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+.no-padding {
+  padding: 0; }
+
+.colorful {
+  background: #222;
+  display: block !important; }
+
+.devider-100 {
+  display: inline-block;
+  height: 100px;
+  width: 100%; }
+
+.devider-50 {
+  display: inline-block;
+  height: 50px;
+  width: 100%; }
+
+.devider-20 {
+  display: inline-block;
+  height: 20px;
+  width: 100%; }
+
+.top-icons {
+  text-align: right;
+  display: block;
+  width: 100%;
+  font-size: 13px; }
+
+.hero-area {
+  background-image: url("../img/hero-img.jpg");
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .hero-area .left-hero-content {
+    text-align: center;
+    width: 300px;
+    background-color: rgba(64, 141, 187, 0.5);
+    color: #fff;
+    border: 3px solid #266a91;
+    border-bottom: none;
+    transform: rotate(-90deg);
+    height: 80px;
+    vertical-align: bottom;
+    padding: 20px;
+    position: relative;
+    top: 150px; }
+    .hero-area .left-hero-content h3 {
+      font-family: 'Abril Fatface', cursive; }
+  .hero-area .right-hero-content::before {
+    content: "";
+    display: block;
+    width: 390px;
+    height: 300px;
+    position: absolute;
+    border: 3px solid #266a91;
+    border-left: none;
+    left: 14px;
+    top: 40px; }
+  .hero-area .right-hero-content {
+    padding: 140px 40px;
+    color: #222; }
+    .hero-area .right-hero-content h4 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900; }
+    .hero-area .right-hero-content span {
+      font-family: 'Abril Fatface', cursive;
+      font-weight: 400;
+      color: #fff; }
+
+.top-header-part {
+  background: rgba(34, 34, 34, 0.7);
+  width: 100%;
+  display: inherit; }
+
+.site-title h3 {
+  padding: 15px 20px 10px;
+  font-family: 'Abril Fatface', cursive; }
+  .site-title h3 span {
+    color: #266a91; }
+
+.top-bar {
+  list-style: none;
+  display: block;
+  text-align: right;
+  width: 100%; }
+  .top-bar li {
+    display: inline-block;
+    padding: 20px 20px 10px; }
+    .top-bar li a {
+      color: #fff; }
+    .top-bar li a:hover {
+      text-decoration: none; }
+
+/*
+=========================================
+About Section
+=========================================
+*/
+.rotate-title {
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  border-left: 1px solid #c3c3c3;
+  padding: 20px 0px 20px 20px;
+  margin: 50px 0 0;
+  color: #222;
+  font-family: 'Playfair Display SC', serif; }
+
+.about-content h4 {
+  color: #222;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400; }
+.about-content h3 {
+  color: #266a91;
+  margin-bottom: 20px;
+  font-family: 'Abril Fatface', cursive; }
+.about-content h6 {
+  color: #505050;
+  margin-bottom: 20px;
+  line-height: 2em; }
+.about-content p {
+  color: #9f9f9f;
+  margin-bottom: 20px; }
+
+.about-img img {
+  width: 100%;
+  height: 225px;
+  margin: 0 0 15px; }
+
+/*
+=========================================
+Choose Us Section
+=========================================
+*/
+.choose-us {
+  background: #f6f6f8; }
+
+.choose-box {
+  padding: 40px 20px 30px; }
+  .choose-box i {
+    color: #222; }
+  .choose-box h3 {
+    color: #266a91;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase; }
+  .choose-box h3::before {
+    content: "";
+    width: 10px;
+    border-top: 3px solid #266a91;
+    display: block;
+    padding: 5px 0; }
+  .choose-box p {
+    margin-top: 20px;
+    color: #9f9f9f;
+    line-height: 2em; }
+
+.icon {
+  float: left;
+  width: 20%; }
+
+.content {
+  float: left;
+  width: 80%; }
+
+.different-mid {
+  background-color: #f9f9fb; }
+
+/*
+=========================================
+Works Section
+=========================================
+*/
+.works-content .nav-tabs {
+  border-bottom: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 13px;
+  font-family: 'Playfair Display SC', serif; }
+  .works-content .nav-tabs .nav-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 0; }
+  .works-content .nav-tabs .nav-link {
+    border: 0; }
+  .works-content .nav-tabs a {
+    color: #222;
+    font-weight: bold; }
+  .works-content .nav-tabs a:hover {
+    color: #222;
+    transition: 0.5s; }
+  .works-content .nav-tabs .active {
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 0;
+    background-color: #266a91; }
+.works-content .carousel-indicators img {
+  width: 66px;
+  height: 59px;
+  display: block;
+  margin: 0 auto; }
+.works-content .carousel-indicators .active img {
+  opacity: 0.6; }
+.works-content .carousel-indicators li {
+  padding: 0 35px;
+  background: none; }
+.works-content .carousel-inner {
+  margin: 0 0 60px; }
+
+/*
+=========================================
+Offers Section
+=========================================
+*/
+.offers {
+  display: block;
+  width: 100%;
+  background-color: #222;
+  background-image: url("../img/leena-offers.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 550px; }
+  .offers .rotate-title {
+    color: #fff; }
+  .offers .overlay {
+    position: absolute;
+    display: block;
+    background: #266a91;
+    opacity: 0.8;
+    width: 50%;
+    height: 550px; }
+  .offers .left-offer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    padding: 50px 100px 40px 25px; }
+    .offers .left-offer h1 {
+      font-family: "Abril Fatface", cursive;
+      color: #fff;
+      font-size: 32px; }
+    .offers .left-offer p {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #fff;
+      line-height: 2em; }
+  .offers .left-offer::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .offers #carouselOffer {
+    top: 40px;
+    font-size: 12px; }
+    .offers #carouselOffer h4 {
+      color: #266a91;
+      font-family: "Abril Fatface", cursive; }
+  .offers .carousel-item {
+    transition: 1s linear; }
+  .offers .carousel-indicators {
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    top: 80px; }
+    .offers .carousel-indicators li {
+      background-color: #266a91 !important;
+      cursor: pointer;
+      border-radius: 50%;
+      height: 15px;
+      width: 15px;
+      margin: 0 0 25px; }
+    .offers .carousel-indicators .active {
+      opacity: 0.5; }
+
+/*
+=========================================
+Talents Section
+=========================================
+*/
+.talents .img-container {
+  position: relative;
+  width: 50%; }
+.talents .talent-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border: 1px solid; }
+.talents .talent-active {
+  border: 3px solid #266a91; }
+.talents .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+.talents .img-container:hover .talent-img {
+  opacity: 0.3; }
+.talents .img-container:hover .middle {
+  opacity: 1; }
+.talents .text {
+  background-color: #266a91;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: "Abril Fatface", cursive; }
+.talents .talent-bio h3 {
+  font-family: "Abril Fatface", cursive;
+  color: #222; }
+.talents .talent-bio h6 {
+  color: #266a91;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400; }
+.talents .talent-bio p {
+  color: #848484;
+  font-family: "Roboto", sans-serif; }
+.talents .talent-skills small {
+  font-family: "Roboto", sans-serif;
+  color: #848484; }
+.talents .talent-social {
+  margin-top: 30px; }
+  .talents .talent-social .fa-facebook {
+    color: #3b5998; }
+  .talents .talent-social .fa-twitter {
+    color: #1da1f2; }
+  .talents .talent-social .fa-linkedin {
+    color: #0077b5; }
+  .talents .talent-social ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0; }
+    .talents .talent-social ul li {
+      display: inline-block;
+      padding-right: 10px; }
+
+/*
+=========================================
+Testimonial Section
+=========================================
+*/
+.testimonials {
+  background: #f6f6f8; }
+  .testimonials .fa-edit {
+    color: #266a91;
+    text-shadow: 1px 1px 1px #222; }
+  .testimonials .client-say {
+    color: #266a91;
+    font-family: "Abril Fatface", cursive; }
+  .testimonials p {
+    color: #848484;
+    font-family: "Roboto", sans-serif; }
+  .testimonials #leenaTestimonial .client-img {
+    width: 100%; }
+  .testimonials #leenaTestimonial .carousel-control-prev,
+  .testimonials #leenaTestimonial .carousel-control-next {
+    color: #266a91; }
+  .testimonials #leenaTestimonial .blockquote {
+    color: #266a91;
+    font-family: "Abril Fatface", cursive;
+    font-style: italic;
+    font-size: 15px; }
+  .testimonials #leenaTestimonial small {
+    color: #222;
+    font-style: italic; }
+
+/*
+=========================================
+News Section
+=========================================
+*/
+.news h2 {
+  font-family: "Abril Fatface", cursive; }
+.news p {
+  font-family: "Roboto", sans-serif; }
+.news .big-news h2 {
+  color: #266a91; }
+.news .big-news h2::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-top: 6px solid; }
+.news .big-news p {
+  color: #848484;
+  line-height: 2em;
+  margin: 30px 0 40px; }
+.news .big-news a {
+  transition: 0.5s;
+  color: #266a91 !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Playfair Display SC", serif; }
+  .news .big-news a i {
+    animation-iteration-count: infinite;
+    transition: all 1s ease; }
+.news .big-news a:hover {
+  background: #222;
+  padding: 20px;
+  transition: 0.5s;
+  color: #fff !important;
+  text-decoration: none; }
+.news .news-titles-1,
+.news .news-titles-2,
+.news .news-titles-3 {
+  background: #f9f9f9;
+  color: #266a91;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-out; }
+  .news .news-titles-1 h2,
+  .news .news-titles-2 h2,
+  .news .news-titles-3 h2 {
+    font-size: 25px;
+    margin: 0 0 30px; }
+  .news .news-titles-1 p,
+  .news .news-titles-2 p,
+  .news .news-titles-3 p {
+    font-size: 15px; }
+.news .news-titles-1:hover,
+.news .news-titles-2:hover,
+.news .news-titles-3:hover,
+.news .news-active {
+  background: #222;
+  transition: 0.5s ease-in; }
+  .news .news-titles-1:hover h2,
+  .news .news-titles-2:hover h2,
+  .news .news-titles-3:hover h2,
+  .news .news-active h2 {
+    color: #266a91; }
+  .news .news-titles-1:hover p,
+  .news .news-titles-2:hover p,
+  .news .news-titles-3:hover p,
+  .news .news-active p {
+    color: #fff; }
+
+/*
+=========================================
+Contact Section
+=========================================
+*/
+.contact {
+  background: #222;
+  display: block;
+  width: 100%; }
+  .contact .rotate-title {
+    color: #fff; }
+  .contact .contact-form {
+    padding: 0 0 0 5%; }
+    .contact .contact-form .form-group {
+      z-index: 4;
+      position: relative; }
+    .contact .contact-form h3 {
+      font-family: "Abril Fatface", cursive;
+      color: #266a91;
+      margin: 0 0 30px; }
+    .contact .contact-form input,
+    .contact .contact-form textarea {
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid #848484;
+      border-radius: 0; }
+    .contact .contact-form input,
+    .contact .contact-form textarea::placeholder {
+      font-family: "Playfair Display SC", serif; }
+    .contact .contact-form .contact-btn {
+      background: transparent;
+      color: #848484 !important;
+      transition: 0.5s ease-out;
+      border-radius: 0;
+      padding: 20px;
+      float: right;
+      margin: 20px 0 0; }
+    .contact .contact-form .contact-btn:hover {
+      border: 1px solid #266a91;
+      transition: 0.5s ease-in;
+      border-radius: 0;
+      padding: 20px;
+      color: #266a91 !important; }
+  .contact .form-control:focus {
+    border-bottom: 1px solid #266a91;
+    box-shadow: none; }
+  .contact .contact-form::after {
+    width: 530px;
+    height: 490px;
+    display: block;
+    content: "";
+    border: 1px solid #fff;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 3; }
+  .contact .group-location::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 400px;
+    background: #266a91;
+    position: absolute;
+    z-index: 2;
+    top: -70px; }
+  .contact .group-location,
+  .contact .group-email,
+  .contact .group-phone {
+    padding-bottom: 20px; }
+    .contact .group-location h3, .contact .group-location p, .contact .group-location .fas,
+    .contact .group-email h3,
+    .contact .group-email p,
+    .contact .group-email .fas,
+    .contact .group-phone h3,
+    .contact .group-phone p,
+    .contact .group-phone .fas {
+      display: block;
+      position: relative;
+      z-index: 4;
+      padding: 0 0 0 30%;
+      color: #fff; }
+    .contact .group-location h3,
+    .contact .group-email h3,
+    .contact .group-phone h3 {
+      font-family: "Abril Fatface", cursive;
+      font-size: 25px; }
+    .contact .group-location h3::before,
+    .contact .group-email h3::before,
+    .contact .group-phone h3::before {
+      content: "";
+      display: block;
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid #fff;
+      position: absolute; }
+    .contact .group-location p,
+    .contact .group-email p,
+    .contact .group-phone p {
+      font-family: "Playfair Display SC", serif; }
+  .contact .copyright {
+    text-align: right;
+    margin: 100px 0 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px; }
+    .contact .copyright a, .contact .copyright i {
+      color: #266a91 !important; }
